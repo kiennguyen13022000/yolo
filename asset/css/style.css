@@ -195,6 +195,7 @@ ul {
 } */
 
 .slide_item_right {
+    display: inline-block;
     position: relative;
 }
 
@@ -220,7 +221,6 @@ ul {
 }
 
 .slide_item_right .img {
-    display:inline-block;
     padding: 20px;
 }
 

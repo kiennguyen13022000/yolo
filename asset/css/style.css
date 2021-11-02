@@ -195,7 +195,6 @@ ul {
 } */
 
 .slide_item_right {
-    display: inline-block;
     position: relative;
 }
 
@@ -212,7 +211,6 @@ ul {
 }
 
 .slide_item_right .img img {
-    max-width: 100%;
     width: 510px;
     position: absolute;
     top: -100px;
@@ -416,7 +414,6 @@ ul {
         height: 16em;
     }
     .slide_item_right .img img {
-        max-width: 310px;
         top: -30px;
         height: auto;
     }
@@ -458,3 +455,8 @@ ul {
         height: auto;
     }
 }
+ 
+@media screen and (max-width: 45.3125em) {
+   .slide_item_right { display: inline-block;}
+}
+

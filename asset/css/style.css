@@ -220,6 +220,7 @@ ul {
 }
 
 .slide_item_right .img {
+    display:inline-block;
     padding: 20px;
 }
 

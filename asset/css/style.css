@@ -417,12 +417,12 @@ ul {
 @media screen and (max-width: 63.9375em) {
     .slide_item_right .shape {
         /* border-radius: 100%; */
-        width: 16em;
-        height: 16em;
+        /* width: 18em;
+        height: 18em; */
     }
     .slide_item_right .img img {
         /* width: 310px; */
-        top: -30px;
+        top: -20px;
         height: auto;
     }
     .policy .row>div {
@@ -461,5 +461,14 @@ ul {
     .banner img {
         width: 100%;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 85.625em) {
+    .nav_pc a {
+        padding-right: 0;
+    }
+    .user-action a {
+        padding-left: 0px;
     }
 }

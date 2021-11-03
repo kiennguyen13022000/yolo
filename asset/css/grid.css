@@ -12,7 +12,6 @@ body {
 .container {
     width: 100%;
     display: block;
-    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -473,16 +472,22 @@ body {
 
 @media screen and (min-width: 740px) and (max-width: 1023px) {
     .container {
-        width: 644px;
+        width: 95%;
     }
 }
 
 
 /* pc low resolution */
 
-@media screen and (min-width: 1024px) and (max-width: 1239px) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
     .container {
-        width: 984px;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 70%;
     }
 }
 

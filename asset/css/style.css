@@ -446,7 +446,6 @@ display: none;
     .slide_item_right .shape {
         width: 20em;
         height: 20em;
-        right: 45px;
         top: 120px !important;
     }
 }

@@ -223,22 +223,6 @@ body {
     margin-left: 100%;
 }
 
-.col-m-1,
-.col-m-2,
-.col-m-3,
-.col-m-4,
-.col-m-5,
-.col-m-6,
-.col-m-7,
-.col-m-8,
-.col-m-9,
-.col-m-10,
-.col-m-11,
-.col-m-12 {
-    display: block;
-    width: 100%;
-}
-
 
 /* < 740px */
 
@@ -479,15 +463,9 @@ body {
 
 /* pc low resolution */
 
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
+@media screen and (min-width: 1024px) {
     .container {
         width: 90%;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .container {
-        width: 70%;
     }
 }
 

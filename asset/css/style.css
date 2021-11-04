@@ -202,18 +202,18 @@ display: none;
 .slide_item_right {
     z-index: 1001;
     position: relative;
-    top: -110px;
+    top: -80px;
 }
 
 .slide_item_right .shape {
     border-radius: 49% 51% 30% 70% / 50% 60% 40% 50%;
     position: absolute;
     background-color: rgb(44, 57, 233);
-    width: 29em;
+    width: 22em;
     right: 15px;
     z-index: 1003;
     top: 140px;
-    height: 29em;
+    height: 22em;
 }
 
 .slide_item_right .img {

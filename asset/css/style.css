@@ -283,7 +283,16 @@ display: none;
     padding: 0 50px;
 }
 
+.img-product {
+    overflow: hidden;
+}
+
+.top-product-item:hover .img-product img {
+    transform: scale(1.1, 1.1);
+}
+
 .img-product img {
+    transition: all 0.4s ease;
     max-width: 100%;
     height: auto;
 }

@@ -527,3 +527,9 @@ display: none;
         bottom: -16px;
     }
 }
+
+@media screen and (max-width: 321px) {
+    .nav_tablet {
+        max-width: 250px;
+    }
+}
